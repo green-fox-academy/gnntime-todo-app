@@ -8,8 +8,8 @@ import java.util.ArrayList;
 
 public class List {
 
-  String name = "-l";
-  String description = "Lists all the tasks";
+  protected String name = "-l";
+  protected String description = "Lists all the tasks";
 
   java.util.List<String> linesWithoutCheck;
   public java.util.List<String> lines = new ArrayList<String>();

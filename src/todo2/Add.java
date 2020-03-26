@@ -9,8 +9,8 @@ import java.nio.file.StandardOpenOption;
 
 public class Add {
 
-  String name = "-a";
-  String description = "Adds a task";
+  protected String name = "-a";
+  protected String description = "Adds a task";
 
   public void add(String task) throws IOException {
     String taskLine = System.lineSeparator() + task;
@@ -19,7 +19,5 @@ public class Add {
     writer.write(taskLine);
     writer.close();
   }
-
-
 
 }
