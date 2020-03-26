@@ -51,9 +51,7 @@ public class Todo {
         System.out.println("Cannot read file");
       }
     }
-
   }
-
   public static Boolean isInputNumeric(String input) {
       if (input == null) {
         return false;
