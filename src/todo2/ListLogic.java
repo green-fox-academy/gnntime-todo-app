@@ -6,11 +6,10 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.util.ArrayList;
 
-public class List {
+public class ListLogic {
 
   protected String name = "-l";
   protected String description = "Lists all the tasks";
-
   java.util.List<String> linesWithoutCheck;
   public java.util.List<String> lines = new ArrayList<String>();
 
@@ -32,11 +31,9 @@ public class List {
     for (String line : linesWithoutCheck) {
       if (line.equals("Walk the dog")) {
         lines.add(line);
-      }
-      else if (line.equals("Buy milk")) {
+      } else if (line.equals("Buy milk")) {
         lines.add(line);
-      }
-      else if (line.equals("Do homework")) {
+      } else if (line.equals("Do homework")) {
         lines.add(line);
       }
     }

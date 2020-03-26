@@ -1,6 +1,6 @@
 package todo2;
 
-public class Complete {
+public class CompleteLogic {
 
   protected String name = "-c";
   protected String description = "Completes a task";

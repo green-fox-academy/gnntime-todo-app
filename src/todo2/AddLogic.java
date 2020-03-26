@@ -7,7 +7,7 @@ import java.nio.file.Path;
 import java.nio.file.Paths;
 import java.nio.file.StandardOpenOption;
 
-public class Add {
+public class AddLogic {
 
   protected String name = "-a";
   protected String description = "Adds a task";
